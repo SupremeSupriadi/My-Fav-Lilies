@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f9e8ec">
+
+  <title>A Little Birthday Story</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">a little birthday story</a>
+    <p class="header-note">made with love, just for you</p>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <span class="hero-eyebrow">
+        Something that I always want to say…
+      </span>
+
+      <h1>A little story<br>about <em>you.</em></h1>
+
+      <p class="hero-description">
+        A few memories, a few wishes, and a little reminder
+        of how wonderful it is to have you in my life.
+      </p>
+
+      <a class="hero-link" href="#chapter1">
+        <span>Turn the page</span>
+        <span aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <!-- CHAPTER I -->
+    <section class="chapter chapter-left" id="chapter1">
+      <div class="chapter-photo">
+        <div class="photo-mat">
+          <canvas class="photo-canvas" id="photoCanvas1"></canvas>
+
+          <div class="photo-placeholder" id="placeholder1">
+            <span>♡</span>
+          </div>
+        </div>
+
+        <span class="photo-caption">
+          Someone that truly special
+        </span>
+      </div>
+
+      <div class="chapter-copy">
+        <p class="chapter-label" id="chapter1Label">Chapter I</p>
+        <h2 id="chapter1Title">The way you are</h2>
+        <p class="chapter-intro" id="chapter1Intro"></p>
+        <div class="poem" id="chapter1Poem"></div>
+      </div>
+    </section>
+
+    <!-- CHAPTER II -->
+    <section class="chapter chapter-right" id="chapter2">
+      <div class="chapter-photo">
+        <div class="photo-mat">
+          <canvas class="photo-canvas" id="photoCanvas2"></canvas>
+
+          <div class="photo-placeholder" id="placeholder2">
+            <span>♡</span>
+          </div>
+        </div>
+
+        <span class="photo-caption">
+          Their little Princess
+        </span>
+      </div>
+
+      <div class="chapter-copy">
+        <p class="chapter-label" id="chapter2Label">Chapter II</p>
+        <h2 id="chapter2Title">Look how far you've come</h2>
+
+        <!-- Chapter II has no separate intro/subchapter -->
+        <div class="poem" id="chapter2Poem"></div>
+      </div>
+    </section>
+
+    <!-- CHAPTER III -->
+    <section class="chapter chapter-left" id="chapter3">
+      <div class="chapter-photo">
+        <div class="photo-mat">
+          <canvas class="photo-canvas" id="photoCanvas3"></canvas>
+
+          <div class="photo-placeholder" id="placeholder3">
+            <span>♡</span>
+          </div>
+        </div>
+
+        <span class="photo-caption">
+          The Pretiest lilies, like you
+        </span>
+      </div>
+
+      <div class="chapter-copy">
+        <p class="chapter-label" id="chapter3Label">Chapter III</p>
+        <h2 id="chapter3Title">A wish for you</h2>
+        <p class="chapter-intro" id="chapter3Intro"></p>
+        <div class="poem" id="chapter3Poem"></div>
+      </div>
+    </section>
+
+    <!-- ENDING -->
+    <section class="ending" id="ending">
+      <p class="chapter-label ending-eyebrow" id="endingEyebrow">
+        Before all of this<br>
+        I want to say to you
+      </p>
+
+      <h2 id="endingTitle">Happy Birthday.</h2>
+
+      <div class="ending-text" id="endingText"></div>
+
+      <p class="ending-signature" id="endingSignature">
+        With love, always
+        <span class="signature-name">-Kaka</span>
+      </p>
+
+      <div class="ending-flower" aria-hidden="true">✿</div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>With full honesty, the things I never dared to say.</p>
+  </footer>
+</body>
+</html>
